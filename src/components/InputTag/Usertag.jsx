@@ -2,20 +2,18 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import { RxCross1 } from "react-icons/rx";
-import { FiArrowRight } from "react-icons/fi";
 import { BACKEND_URL } from "../../constants";
 
-//commit
+// commit
 const Inputtag = ({ setTags, tags }) => {
-  
   useEffect(() => {
     const fetchTagSuggestions = async () => {
       try {
-        const response = await axios.get(BACKEND_URL + '/tags');
+        const response = await axios.get(BACKEND_URL + "/tags");
         setTagSuggestions(response.data);
-        console.log(response.data)
+        console.log(response.data);
       } catch (error) {
-        console.error('Error fetching tag suggestions:', error);
+        console.error("Error fetching tag suggestions:", error);
       }
     };
 
@@ -61,16 +59,16 @@ const Inputtag = ({ setTags, tags }) => {
           {tags.map((tagItem, index) => (
             <div
               key={index}
-              className="flex bg-[#212121] p-1 px-2 items-center rounded-full hover:bg-[#313131]"
+              className="flex bg-[#f0f0f0] border px-2 items-center rounded-full hover:bg-[#e9e9e9] transition-all justify-center"
             >
-              <span className="text-white font-light text-[20px] text-center text-base">
+              <span className="text-[#212121] font-light text-[20px] text-center text-base">
                 {tagItem}
               </span>
               <span
                 onClick={() => handleTagDelete(index)}
-                className="cursor-pointer ml-1"
+                className="cursor-pointer ml-1 text-2xl"
               >
-                <RxCross1 className="h-[14px] items-center" />
+                <RxCross1 className="h-[14px] text-[#919191] items-center" />
               </span>
             </div>
           ))}

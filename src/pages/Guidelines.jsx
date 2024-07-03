@@ -18,7 +18,6 @@ const Guidelines = () => {
               transition={{ duration: 0.15, delay: 0.05 }}
             >
               <h1 className="text-4xl lg:py-8 font-semibold text-center text-black">
-
                 Guidelines
               </h1>
             </motion.div>
@@ -28,11 +27,10 @@ const Guidelines = () => {
               exit={{ opacity: 0, translateY: 100 }}
               transition={{ duration: 0.15, delay: 0.07 }}
             >
-
               <p>
                 Anubhav, the experience sharing platform, welcomes contributions
-                from anyone at AIT to support others on their journey to the next
-                interview. It offers a wealth of articles and resources
+                from anyone at AIT to support others on their journey to the
+                next interview. It offers a wealth of articles and resources
                 specifically tailored to college placements and interview
                 experiences.
               </p>
@@ -44,7 +42,6 @@ const Guidelines = () => {
               exit={{ opacity: 0, translateY: 100 }}
               transition={{ duration: 0.15, delay: 0.1 }}
             >
-
               <h2 className="text-black text-2xl lg:pb-4 font-semibold">
                 Reviewing Process:
               </h2>
@@ -56,7 +53,6 @@ const Guidelines = () => {
                 exit={{ opacity: 0, translateY: 100 }}
                 transition={{ duration: 0.15, delay: 0.12 }}
               >
-
                 <li>
                   Step 1: Share your interview experience in the write-article
                   section.
@@ -68,11 +64,10 @@ const Guidelines = () => {
                 exit={{ opacity: 0, translateY: 100 }}
                 transition={{ duration: 0.15, delay: 0.14 }}
               >
-
                 <li>
                   Step 2: Submit your article. After submission, it will go for
-                  verification. Verification is just a small process to filter out
-                  spam articles.
+                  verification. Verification is just a small process to filter
+                  out spam articles.
                 </li>
               </motion.div>
               <motion.div
@@ -81,7 +76,6 @@ const Guidelines = () => {
                 exit={{ opacity: 0, translateY: 100 }}
                 transition={{ duration: 0.15, delay: 0.14 }}
               >
-
                 <li>
                   Step 3: After verification, it will be available on our
                   platform.
@@ -104,11 +98,10 @@ const Guidelines = () => {
               exit={{ opacity: 0, translateY: 100 }}
               transition={{ duration: 0.15, delay: 0.2 }}
             >
-
               <p className="py-2">
-                We've created a user-friendly and straightforward article writing
-                section. To ensure a clear understanding of how to use it, please
-                refer to the following points:
+                We've created a user-friendly and straightforward article
+                writing section. To ensure a clear understanding of how to use
+                it, please refer to the following points:
               </p>
             </motion.div>
             <div className="lg:ml-8 p-3 lg:p-0">
@@ -119,10 +112,9 @@ const Guidelines = () => {
                   exit={{ opacity: 0, translateY: 100 }}
                   transition={{ duration: 0.15, delay: 0.22 }}
                 >
-
                   <li>
-                    Enter basic information like your name, company name, offered
-                    position, and email address.
+                    Enter basic information like your name, company name,
+                    offered position, and email address.
                   </li>
                 </motion.div>
                 <motion.div
@@ -131,12 +123,11 @@ const Guidelines = () => {
                   exit={{ opacity: 0, translateY: 100 }}
                   transition={{ duration: 0.15, delay: 0.24 }}
                 >
-
                   <li>
                     Write the article in the editor which offers a variety of
-                    features to streamline the article writing process, including
-                    the ability to add headings, code blocks, format text, insert
-                    emojis, images, and more.
+                    features to streamline the article writing process,
+                    including the ability to add headings, code blocks, format
+                    text, insert emojis, images, and more.
                   </li>
                 </motion.div>
                 <motion.div
@@ -145,7 +136,6 @@ const Guidelines = () => {
                   exit={{ opacity: 0, translateY: 100 }}
                   transition={{ duration: 0.15, delay: 0.26 }}
                 >
-
                   <li>Add relevant tags related to your company and field.</li>
                 </motion.div>
                 <motion.div
@@ -154,7 +144,6 @@ const Guidelines = () => {
                   exit={{ opacity: 0, translateY: 100 }}
                   transition={{ duration: 0.15, delay: 0.28 }}
                 >
-
                   <li>
                     Click the submit button to send your article for spam check
                     (verification step).
